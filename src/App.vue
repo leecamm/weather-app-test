@@ -143,7 +143,7 @@ export default {
   methods: {
     getWeather: async function () {
       console.log(this.citySearch);
-      const key = "5299e83c9cf2fef510fb8ddaa3206ac8";
+      const key = "8be9b2e8e120d86b7fce4bf4a51a1ffd";
       const baseURL = `http://api.openweathermap.org/data/2.5/weather?q=${this.citySearch}&appid=${key}&units=metric`;
 
       //fetch weather
